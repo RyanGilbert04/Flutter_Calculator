@@ -177,6 +177,10 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   text: '+',
                   onPressed: () => _addToExpression('+'),
                 ),
+                CalculatorButton(
+                  text: '%',
+                  onPressed: () => _addToExpression('%'),
+                ),
               ],
             ),
           ),
